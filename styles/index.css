@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #0C1B31;
+}
+
+path {
+    fill: none;
+    stroke: #DDDFDF;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+
+.tooltip {
+    position: absolute;			
+    text-align: center;			
+    width: 150px;				
+    height: 50px;				
+    padding: 4px;				
+    font: 14px 'Playfair Display';		
+    background: lightsteelblue;	
+    border: 0px;	
+    border-radius: 10px;		
+    pointer-events: none;	
+}
+
+.description{
+    position: absolute;								
+    font: 18px 'Playfair Display';
+    border: 0px;		
+    overflow-y: auto;	
+}
+
+
+.major_road { stroke: #DDDFDF; }
+.highway { stroke: #B55246; }
+
+svg.map {
+    float: right;
+}
+
+svg.vis {
+    background-color: #0C1B31;
+}
+
+text {
+    font-family: 'Playfair Display', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    fill: #DDDFDF;
+}
+
+.axis {
+        font: 10px 'Playfair Display';
+        fill:#DDDFDF;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #DDDFDF;
+    shape-rendering: crispEdges;
+}
